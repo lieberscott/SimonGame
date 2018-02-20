@@ -1,0 +1,151 @@
+$blue: #023991;
+$red: #910202;
+$green: #008e02;
+$yellow: #ccc000;
+$borders: #333;
+$text: #222; // Simon
+$offwhite: #ece7ee; // center of console
+$digitalbackground: #470000; // dark red
+$digitaldisplay: #f90705; // bright red
+$buttonborder: #202021; // dark blue-gray
+
+
+body {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+}
+
+button:active {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:active {
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.main {
+  margin: 100px auto;
+  width: 420px;
+}
+
+.button {
+  border: 15px solid $borders;
+  height: 200px;
+  width: 200px;
+}
+
+.controls {
+  background-color: $offwhite;
+  border: 10px solid $borders;
+  border-radius: 50%;
+  margin-left: 90px;
+  margin-top: 90px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.game {
+  color: $text;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 36pt;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.r { // copyright symbol
+  color: $text;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 14pt;
+  position: relative;
+  top: -20px;
+}
+
+.text {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 8pt;
+}
+
+#zero {
+  background-color: $blue;
+  border-radius: 100% 0% 0% 0%;
+}
+
+#one {
+  background-color: $red;
+  border-radius: 0% 100% 0% 0%;
+  margin-left: -4px;
+}
+
+#two {
+  background-color: $green;
+  border-radius: 0% 0% 0% 100%;
+}
+
+#three {
+  background-color: $yellow;
+  border-radius: 0% 0% 100% 0%;
+  margin-left: -4px;
+}
+
+#reset { // start button
+  background-color: red;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 2px $buttonborder;
+  margin-left: 2px;
+}
+
+#strict {
+  background-color: #a9b53a;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 2px $buttonborder;
+  margin-left: 21px;
+}
+
+.count {
+  background-color: $digitalbackground;
+  border: 4px solid $buttonborder;
+  border-radius: 6px;
+  color: $digitaldisplay;
+  display: inline-block;
+  margin: 10px 15px 0px 22px;
+  height: 30px;
+  width: 50px;
+  vertical-align: bottom;
+}
+
+.inner {
+  float: right;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+  padding-top: 5px;
+  position: relative;
+  right: 2px;
+}
+
+#counttext {
+  margin-left: 35px;
+  margin-right: 25px;
+  position: relative;
+}
+
+#stricttext {
+  padding-left: 12px;
+}

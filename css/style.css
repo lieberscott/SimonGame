@@ -1,0 +1,139 @@
+body {
+  background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+}
+
+button:active {
+  outline: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+input:active {
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  border: none;
+  outline: none;
+}
+
+.main {
+  margin: 100px auto;
+  width: 420px;
+}
+
+.button {
+  border: 15px solid #333;
+  height: 200px;
+  width: 200px;
+}
+
+.controls {
+  background-color: #ece7ee;
+  border: 10px solid #333;
+  border-radius: 50%;
+  margin-left: 90px;
+  margin-top: 90px;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 1;
+}
+
+.game {
+  color: #222;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 36pt;
+  margin-top: 35px;
+  text-align: center;
+}
+
+.r {
+  color: #222;
+  font-family: "Alfa Slab One", cursive;
+  font-size: 14pt;
+  position: relative;
+  top: -20px;
+}
+
+.text {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 8pt;
+}
+
+#zero {
+  background-color: #023991;
+  border-radius: 100% 0% 0% 0%;
+}
+
+#one {
+  background-color: #910202;
+  border-radius: 0% 100% 0% 0%;
+  margin-left: -4px;
+}
+
+#two {
+  background-color: #008e02;
+  border-radius: 0% 0% 0% 100%;
+}
+
+#three {
+  background-color: #ccc000;
+  border-radius: 0% 0% 100% 0%;
+  margin-left: -4px;
+}
+
+#reset {
+  background-color: red;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 2px #202021;
+  margin-left: 2px;
+}
+
+#strict {
+  background-color: #a9b53a;
+  border: 1px solid black;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 1px 2px #202021;
+  margin-left: 21px;
+}
+
+.count {
+  background-color: #470000;
+  border: 4px solid #202021;
+  border-radius: 6px;
+  color: #f90705;
+  display: inline-block;
+  margin: 10px 15px 0px 22px;
+  height: 30px;
+  width: 50px;
+  vertical-align: bottom;
+}
+
+.inner {
+  float: right;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 26px;
+  padding-top: 5px;
+  position: relative;
+  right: 2px;
+}
+
+#counttext {
+  margin-left: 35px;
+  margin-right: 25px;
+  position: relative;
+}
+
+#stricttext {
+  padding-left: 12px;
+}
